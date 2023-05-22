@@ -1,0 +1,141 @@
+.container{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   position: relative;
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2000' height='1500' preserveAspectRatio='none' viewBox='0 0 2000 1500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1129%26quot%3b)' fill='none'%3e%3crect width='2000' height='1500' x='0' y='0' fill='rgba(75%2c 77%2c 182%2c 1)'%3e%3c/rect%3e%3cpath d='M1601.6722697930352 1621.1592068634782L1762.8987484962738 1241.3334255770203 1383.072967209816 1080.1069468737817 1221.8464885065773 1459.9327281602395z' fill='rgba(88%2c 143%2c 212%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M829.1439434529683 941.2697832652149L1053.2029268428512 621.2803927442889 733.2135363219252 397.221409354406 509.1545529320423 717.210799875332z' fill='rgba(88%2c 143%2c 212%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M50.39485887617967 362.5305263220939L119.80717943710737 640.9281381803406 502.6974369440136 397.6108514098257z' fill='rgba(88%2c 143%2c 212%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1258.8837932283286 552.6027103895207L1318.8442492084318 776.3781785522627 1482.6592613910707 492.64225440941755z' fill='rgba(88%2c 143%2c 212%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M652.5954799791554 1026.677410118164L485.08700178058393 840.6403978908376 289.7857225388801 1184.9216213023578z' fill='rgba(88%2c 143%2c 212%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1400.602%2c839.342C1505.283%2c841.51%2c1614.788%2c808.104%2c1667.095%2c717.403C1719.367%2c626.762%2c1696.123%2c513.57%2c1639.045%2c425.877C1587.203%2c346.229%2c1495.636%2c307.817%2c1400.602%2c307.969C1305.868%2c308.12%2c1213.509%2c346.194%2c1163.474%2c426.637C1110.578%2c511.679%2c1102.667%2c619.912%2c1152.561%2c706.749C1202.621%2c793.875%2c1300.141%2c837.262%2c1400.602%2c839.342' fill='rgba(88%2c 143%2c 212%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-147.94878221854572 1222.3212207128477L-205.29264698765138 1584.3761337561095 156.7622660556105 1641.7199985252153 214.10613082471616 1279.6650854819534z' fill='rgba(88%2c 143%2c 212%2c 1)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1129'%3e%3crect width='2000' height='1500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+.img-container{ 
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.curriculum2{
+    background: linear-gradient(to bottom right,#192997, #0e0e54, #020249, #16216a, #08047d);
+    width: 300px;
+    transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+    border-radius: 18px;
+    position:relative;
+    text-align: center;
+    
+    display: flex;
+  justify-content: center;
+   margin-bottom: 5%;
+    
+}
+.curriculum:hover{
+    transform: scale(1.05);
+transition: all .2s ease-in-out;
+}
+    
+ .curriculum{
+        position: absolute;
+        bottom: -10px;
+        right: 6.3em;
+        width: 125px;
+        height: 50px;
+        background-color: #8F0005;
+        border-radius: 1.5em;
+        color: white;
+        text-transform: uppercase;
+        padding: 0.2em .5em;
+        background-color: #549dc7;
+        justify-content: center;
+        display: flex;
+        cursor: pointer;
+  
+    }
+    .curriculum p{
+        font-size: 28px;
+        font-family: 'Bevan', cursive;
+
+    }
+    
+    .iconoFlotante {
+        width: 421px;
+        border-radius: 18px;
+        padding-left: 0px;
+        
+    }
+    .curriculum:hover{
+        transform: scale(1.5);
+        transition:  all .2s ease-in-out;
+        background-color: #f5d30f;
+
+    }
+   
+    
+    @keyframes float {
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-25px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+        0%{
+            transform: translateX(0px);
+        }
+        50%{
+            transform: translateX(-105px);
+        }
+        100%{
+            transform: translateX(0px);
+        }
+    }
+    
+    
+    
+    @media (max-width: 800px){
+     
+        
+         .iconoFlotante{
+                width: 301px;
+                border-radius: 18px;
+                padding-right: 0px;
+            }
+            .curriculum{
+                width:120px;
+                padding: 0.4em 3.8em;
+                bottom: -10px;
+                right: 7.1em;
+                width: 125px;
+            }
+            .img-container{
+                left: 30%;
+            }
+            .curriculum p{
+                font-size: 25px;        
+            }
+    }
+    
+    
+    @media (max-width: 570px) {
+       
+    .iconoFlotante{
+        width: 250px;
+    }
+    
+    .imagen{
+        width: 300px;    
+        }
+        .curriculum{
+            width:120px;
+            bottom: -10px;
+            right: 5em;
+            width: 125px;
+        }
+        .img-container{
+        }
+  }
+  
+
+  

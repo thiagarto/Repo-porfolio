@@ -1,0 +1,92 @@
+.fondo{
+    background: linear-gradient(to bottom right,#37017e, #3333d9, #013142, #4a078d, #003609);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.spinner{
+    height: 120px;
+width: 120px;
+border: 6px solid white;
+border-color: rgb(247, 240, 43) transparent white transparent;
+border-radius: 50%;
+animation: spin 1.3s ease infinite;
+box-shadow: 0 0 10px #a945c7, 0 0 40px
+#a945c7, 0 0 80px #3945c7;;
+}
+@keyframes spin {
+    to {
+    transform: rotate(360deg) ;
+    }
+}
+.logo-load{
+    position: absolute;
+}
+.logo-load img{
+    width: 100px;
+}
+
+
+/* GO TOP CSS*/
+
+.go-top-container {
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: -1;
+}
+
+.go-top-button{
+    width: 0rem;
+    height: 0rem;
+    background: #FFB40B;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .2s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.go-top-button i{
+    position: absolute;
+    font-size: 1.7rem;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    color: #fff;
+    transition: .2s;
+}
+
+.show{
+    z-index: 10;
+}
+
+.show .go-top-button{
+    animation: popup .3s ease-in-out;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: 11;
+}
+.show i {
+    transform: translate(-50%,-50%) scale(1);
+}
+
+@keyframes popup{
+    0%{
+        width: 0rem;
+        height: 0rem;
+    }
+    50%{
+        width: 8rem;
+        height: 8rem;
+    }
+    100%{
+        width: 6.6rem;
+        height: 6.6rem;
+    }
+}
